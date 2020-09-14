@@ -6,6 +6,7 @@ sap.ui.define([
 			onInit: function () {
 				this.getView().byId("html").setContent("<canvas id='signature-pad' width='400' height='200' class='signature-pad'></canvas>");
 			},
+			//SignaturePad Sign
 			onSign: function (oEvent) {
 				var canvas = document.getElementById("signature-pad");
 				var context = canvas.getContext("2d");
